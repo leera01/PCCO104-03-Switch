@@ -4,20 +4,20 @@ class Program
 {
   public static void Main (string[] args) 
   {
-    char letter = 'Z';
+    char letter = 'A';
 
     switch (letter) {
       case 'A':
-        Console.WriteLine($"{letter} is for Apple.");
+        Console.WriteLine($"{letter} is for Alpha.");
         break;
       case 'B':
-        Console.WriteLine($"{letter} is for Banana.");
+        Console.WriteLine($"{letter} is for Bravo.");
         break;
       case 'C':
-        Console.WriteLine($"{letter} is for Cranberry.");
+        Console.WriteLine($"{letter} is for Charlie.");
         break;
       case 'D':
-        Console.WriteLine($"{letter} is for Durian.");
+        Console.WriteLine($"{letter} is for Delta.");
         break;
       default:
         Console.WriteLine("Cannot find fruit.");
